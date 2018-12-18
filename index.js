@@ -16,6 +16,7 @@ function bfs(rootNode, vertices, edges){
     let adj = findAdjacent(rootNode, vertices, edges)
     markDistanceAndPredecessor(rootNode, adj)
     adj.map(x => queue.push(x))
+    return queue;
 }
 
 function findAdjacent(firstNode, vertices, edges) {
