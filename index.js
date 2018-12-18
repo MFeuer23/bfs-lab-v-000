@@ -11,6 +11,8 @@ function bfs(rootNode, vertices, edges){
     //         addToQueue(vertex)
     //     }
     // }
+    queue = [];
+    queue.push(rootNode);
 }
 
 function findAdjacent(firstNode, vertices, edges) {
