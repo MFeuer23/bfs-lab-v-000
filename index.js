@@ -25,7 +25,3 @@ function markDistanceAndPredecessor(predecessor, adjNodes) {
     node.distance = predecessor.distance + 1
   })
 }
-
-function addToQueue(vertex) {
-  
-}
