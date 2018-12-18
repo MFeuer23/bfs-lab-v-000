@@ -10,8 +10,8 @@ function findAdjacent(firstNode, vertices, edges) {
   return vertices.filter(x => adjArray.includes(x.name) && x.distance === null)
 }
 
-function markDistanceAndPredecessor(vertex, adjacentNodes) {
-  return adjacentNodes
+function markDistanceAndPredecessor(vertex, adj) {
+  return adj;
 }
 
 function addToQueue(vertex) {
