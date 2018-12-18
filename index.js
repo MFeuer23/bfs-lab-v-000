@@ -11,7 +11,7 @@ function bfs(rootNode, vertices, edges){
     //         addToQueue(vertex)
     //     }
     // }
-    queue = [];
+    let queue = [];
     queue.push(rootNode);
 }
 
