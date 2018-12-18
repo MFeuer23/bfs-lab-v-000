@@ -11,7 +11,7 @@ function findAdjacent(firstNode, vertices, edges) {
 }
 
 function markDistanceAndPredecessor(predecessor, adjNodes) {
-  return adjNodes.map(x => x.predecessor = predecessor,  x.distance = 1)
+  return adjNodes.map(x => x.predecessor = predecessor;  x.distance = 1)
 }
 
 function addToQueue(vertex) {
