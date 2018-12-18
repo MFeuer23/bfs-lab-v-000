@@ -5,6 +5,7 @@ function bfs(rootNode, vertices, edges){
 }
 
 function findAdjacent(firstNode, vertices, edges) {
+  edges.filter(x => x.includes)
   return vertices.filter(x => x.name == `${firstNode}`)
 }
 
