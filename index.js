@@ -10,7 +10,7 @@ function findAdjacent(firstNode, vertices, edges) {
   return vertices.filter(x => adjArray.includes(x.name) && x.distance === null)
 }
 
-function markDistanceAndPredecessor(vertex) {
+function markDistanceAndPredecessor(vertex, adjacentNodes) {
   
 }
 
